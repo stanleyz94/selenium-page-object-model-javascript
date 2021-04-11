@@ -1,7 +1,8 @@
 # Selenium Page Object Model in Javascript with Jest
 
 
-Demonstrates a way of organizing Selenium Tests Using the Page Object Model for testing a simple registration page on [www.wizzair.com](https://wizzair.com/ "www.wizzair.com")
+Demonstrates a way of organizing Selenium Tests Using the Page Object Model for testing a simple registration page on [www.wizzair.com](https://wizzair.com/ "www.wizzair.com").
+This application uses Jest as testing framework and faker-js (library for generating fake data).
 
 > Page Object Model (POM) is a design pattern, popularly used in test automation that creates Object Repository for web UI elements. The advantage of the model is that it reduces code duplication and improves test maintenance.
 
@@ -9,6 +10,7 @@ Demonstrates a way of organizing Selenium Tests Using the Page Object Model for 
 ## Installation
 
 **Important**
+
 In order to run the tests and use Selenium, you need to download  seperetable executables which controls a browser.
 
 The drivers for Chrome, Firefox web browsers are all standalone executables that should be placed on your system [PATH](http://en.wikipedia.org/wiki/PATH_%28variable%29 "PATH")
